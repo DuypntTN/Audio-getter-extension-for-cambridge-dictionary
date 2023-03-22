@@ -1,0 +1,15 @@
+{
+  "name": "Cambridge Dictionary Audio Getter",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "ambulance.png",
+      "32": "ambulance.png",
+      "48": "ambulance.png",
+      "128": "ambulance.png"
+    }
+  }
+}
