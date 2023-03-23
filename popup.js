@@ -80,6 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 tempTextArea.select()
                 document.execCommand('copy')
                 document.body.removeChild(tempTextArea)
+                alert('Copied to clipboard')
               })
               li.appendChild(a)
               audioList.appendChild(li)
